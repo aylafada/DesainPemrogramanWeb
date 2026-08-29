@@ -13,24 +13,24 @@ mendeklarasikan bahwa dokumen menggunakan standar HTML5
 2. `<html lang="id">` 
 menjadi elemen utama yang membungkus seluruh dokumen HTML Atribut lang="id" menunjukkan bahwa bahasa utama halaman adalah Bahasa Indonesia
 3. `<head>` 
-Membuka bagian <head> yang berisi informasi dan pengaturan halaman yang digunakan oleh browser.
+Membuka bagian `<head>` yang berisi informasi dan pengaturan halaman yang digunakan oleh browser.
 4. `<meta charset="UTF-8">` 
 Menentukan penggunaan karakter UTF-8 agar berbagai karakter dan simbol dapat ditampilkan dengan benar.
 5. `<title>SIMPUS-Mini | Beranda</title>` 
 Menentukan judul halaman yang ditampilkan pada tab browser
 6. `</head>`  
-Menandai akhir dari bagian <head>.
+Menandai akhir dari bagian `<head>`.
 7. `<body>` 
-Membuka bagian <body> yang berisi seluruh konten yang ditampilkan kepada pengguna.
+Membuka bagian `<body>` yang berisi seluruh konten yang ditampilkan kepada pengguna.
 8. `<header>` 
 Membuka bagian kepala halaman yang berisi identitas aplikasi dan menu navigasi.
 9. `<h1>SIMPUS-Mini</h1>` 
-Menampilkan judul utama aplikasi. <h1> merupakan heading dengan tingkat paling tinggi dan setiap halaman HTML sebaiknya memiliki satu <h1> utama.
+Menampilkan judul utama aplikasi. `<h1>` merupakan heading dengan tingkat paling tinggi dan setiap halaman HTML sebaiknya memiliki satu `<h1>` utama.
 10. `<nav>` 
 Membuka bagian navigasi yang digunakan untuk mengelompokkan menu perpindahan halaman 
 11. `<ul>` 
 Membuat unordered list atau daftar tak berurutan untuk membungkus seluruh item menu navigasi
-12. `<li><a href="index.html">Beranda</a><li>` Membuat satu item menu bernama Beranda. Tag <a> digunakan sebagai tautan, sedangkan href="index.html" menentukan halaman tujuan.
+12. `<li><a href="index.html">Beranda</a><li>` Membuat satu item menu bernama Beranda. Tag `<a>` digunakan sebagai tautan, sedangkan href="index.html" menentukan halaman tujuan.
 13. `<li><a href="buku/list.html">Daftar Buku</a></li>` 
 Membuat item menu Daftar Buku yang mengarah ke file list.html di dalam folder buku.
 14. `<li><a href="buku/tambah.html">Tambah Buku</a></li>` 
@@ -40,7 +40,7 @@ Membuat item menu Daftar Anggota yang mengarah ke file list.html di dalam folder
 16. `<li><a href="anggota/tambah.html">Daftar Anggota</a></li>` 
 Membuat item menu Tambah Anggota yang mengarah ke file tambah.html di dalam folder anggota.
 17. `</ul>` 
-Menandai akhir dari daftar menu yang dibuat menggunakan <ul>.
+Menandai akhir dari daftar menu yang dibuat menggunakan `<ul>`.
 18. `</nav>` 
 Menandai akhir dari bagian navigasi
 19. `</header>` 
@@ -50,7 +50,7 @@ Membuka bagian konten utama halaman
 21. `<section>` 
 Membuka bagian pertama dalam konten utama yang digunakan untuk mengelompokkan informasi berdasarkan topik
 22. `<h2>Selamat Datang di Sistem Perpustakaan Mini</h2>` 
-Menampilkan judul section pertama. <h2> digunakan sebagai heading yang tingkatnya berada di bawah <h1>.
+Menampilkan judul section pertama. `<h2>` digunakan sebagai heading yang tingkatnya berada di bawah `<h1>`.
 23. `<p>Aplikasi sederhana untuk mengelola data buku dan anggota perpustakaan.</p>` 
 Menampilkan paragraf yang menjelaskan fungsi aplikasi SIMPUS-Mini.
 24. `</section>` 
@@ -62,7 +62,7 @@ Menampilkan judul untuk bagian ringkasan statistik.
 27. `<article>`
 Membuka article pertama yang digunakan untuk menampilkan satu informasi statistik yang dapat berdiri sendiri.
 28. `<h3>Total Buku</h3>` 
-Menampilkan judul statistik yang menunjukkan jumlah keseluruhan buku. <h3> berada satu tingkat di bawah <h2>.
+Menampilkan judul statistik yang menunjukkan jumlah keseluruhan buku. `<h3>` berada satu tingkat di bawah `<h2>`.
 29. `<p>12</p>` 
 Menampilkan angka 12 sebagai contoh jumlah buku. Angka ini masih merupakan data dummy yang ditulis secara manual.
 30. `</article>` 
@@ -100,18 +100,18 @@ Menandai akhir dari keseluruhan dokumen HTML.
 
 ### Penjelasan Struktur Semantic HMTL
 Halaman index.html menggunakan beberapa elemen semantic HTML5. Elemen - elemen tersebut digunakan untuk memberikan makna yang jelas terhadap struktur halaman
-- <header> digunakan sebagai kepala halaman yang berisi identitas aplikasi dan navigasi.
-- <nav> digunakan untuk bagian menu navigasi.
-- <main> digunakan untuk menampung konten utama halaman.
-- <section> digunakan untuk mengelompokkan konten berdasarkan topik tertentu.
-- <article> digunakan untuk informasi yang dapat berdiri sendiri. Pada halaman ini, setiap article digunakan sebagai satu bagian statistik.
-- <footer> digunakan sebagai bagian kaki halaman untuk menampilkan informasi tambahan seperti copyright
+- `<header>` digunakan sebagai kepala halaman yang berisi identitas aplikasi dan navigasi.
+- `<nav>` digunakan untuk bagian menu navigasi.
+- `<main>` digunakan untuk menampung konten utama halaman.
+- `<section>` digunakan untuk mengelompokkan konten berdasarkan topik tertentu.
+- `<article>` digunakan untuk informasi yang dapat berdiri sendiri. Pada halaman ini, setiap article digunakan sebagai satu bagian statistik.
+- `<footer>` digunakan sebagai bagian kaki halaman untuk menampilkan informasi tambahan seperti copyright
 
-Pada bagian navigasi, <ul> digunakan untuk membungkus daftar menu, sedangkan setiap <li> menjadi satu item menu yang berisi tautan <a>. Atribut href pada setiap tautan menentukan halaman tujuan. Karena index.html berada di folder root, path menuju folder buku/ dan anggota/ dapat ditulis secara langsung tanpa menggunakan ../
+Pada bagian navigasi, `<ul>` digunakan untuk membungkus daftar menu, sedangkan setiap `<li>` menjadi satu item menu yang berisi tautan `<a>`. Atribut href pada setiap tautan menentukan halaman tujuan. Karena index.html berada di folder root, path menuju folder buku/ dan anggota/ dapat ditulis secara langsung tanpa menggunakan ../
 
 ### Kesimpulan 
-File index.html merupakan halaman beranda yang menerapkan struktur HTML5 semantic. Struktur dasar halaman terdiri dari <header> yang berisi judul dan navigasi, <main> yang berisi konten utama halaman, serta <footer> yang berisi informasi copyright.
-Struktur tersebut menjadi pola dasar yang akan digunakan pada halaman lainnya dalam jobsheet. Perbedaan utama antarhalaman terdapat pada isi <main>, sedangkan bagian <header> dan <footer> dapat dibuat dengan struktur yang konsisten. Dengan memahami struktur index.html, pembuatan halaman buku/list.html, buku/tambah.html, anggota/list.html, dan anggota/tambah.html menjadi lebih mudah karena menggunakan konsep semantic HTML yang sama.
+File index.html merupakan halaman beranda yang menerapkan struktur HTML5 semantic. Struktur dasar halaman terdiri dari `<header>` yang berisi judul dan navigasi, `<main>` yang berisi konten utama halaman, serta `<footer>` yang berisi informasi copyright.
+Struktur tersebut menjadi pola dasar yang akan digunakan pada halaman lainnya dalam jobsheet. Perbedaan utama antarhalaman terdapat pada isi `<main>`, sedangkan bagian `<header>` dan `<footer>` dapat dibuat dengan struktur yang konsisten. Dengan memahami struktur index.html, pembuatan halaman buku/list.html, buku/tambah.html, anggota/list.html, dan anggota/tambah.html menjadi lebih mudah karena menggunakan konsep semantic HTML yang sama.
 
 ## buku/list.html (Daftar Buku)
 File buku/html merupakan halaman Daftar Buku pada aplikasi SIMPUS-Mini. Halaman ini digunakan untuk menampilkan data buku dalam bentuk tabel. Data yang ditampilkan masih berupa contoh atau data statis, yaitu sebanyak 5 baris data buku
@@ -161,10 +161,10 @@ Baris ini merupakan tag penutup untuk sel kolom aksi.
 Baris ini merupakan tag penutup untuk satu baris data buku.
 
 ### Kesimupulan 
-File buku/list.html merupakan halaman yang digunakan untuk menampilkan daftar buku pada aplikasi SIMPUS-Mini. Halaman ini menggunakan struktur HTML5 semantic berupa <header>, <nav>, <main>, <section>, dan <footer>. Perbedaan utama terdapat pada <main>, yaitu penggunaan elemen <table> untuk menampilkan data buku. Tabel terdiri dari lima kolom, yaitu Judul, tahun, stok, pengararang, dan aksi, serta lima baris data dummy
+File buku/list.html merupakan halaman yang digunakan untuk menampilkan daftar buku pada aplikasi SIMPUS-Mini. Halaman ini menggunakan struktur HTML5 semantic berupa `<header>`, `<nav>`, `<main>`, `<section>`, dan `<footer>`. Perbedaan utama terdapat pada `<main>`, yaitu penggunaan elemen `<table>` untuk menampilkan data buku. Tabel terdiri dari lima kolom, yaitu Judul, tahun, stok, pengararang, dan aksi, serta lima baris data dummy
 
 ## buku/tambah.html (Form Tambah Buku)
-File ini menampilkan form (formulir isian) untuk menambah data buku baru. ini adalah file pertama di jobsheet ini yang memperkenalkan elemen <form> dan berbagai jenis <input>
+File ini menampilkan form (formulir isian) untuk menambah data buku baru. ini adalah file pertama di jobsheet ini yang memperkenalkan elemen `<form>` dan berbagai jenis `<input>`
 
 ### Penjelasan Perbaris
 1. `<form>`
