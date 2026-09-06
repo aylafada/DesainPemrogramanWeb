@@ -4,7 +4,7 @@
 ### Kelas : TI - 2D
 ### NIM : 254107020116
 
-## `assets/css/style.css`
+## style.css
 Jobsheet 2 berfokus pada implementasi styling dasar menggunakan CSS3 pada seluruh halaman aplikasi SIMPUS-Mini (`index.html`, `buku/list.html`, `buku/tambah.html`, `anggota/list.html`, dan `anggota/tambah.html`) tanpa mengubah struktur hierarki konten HTML. File styling dipusatkan pada satu berkas bersama, yaitu `assets/css/style.css`, dengan tujuan menjaga konsistensi visual dan memudahkan penggunaan kembali (reusability).
 
 Dalam jobsheet ini, diterapkan beberapa konsep utama CSS3:
