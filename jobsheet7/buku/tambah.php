@@ -11,7 +11,7 @@ unset($_SESSION['old_buku']);
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
 <main>
-    <sectin>
+    <section>
         <h2>Tambah Buku Baru</h2>
         <?php if (!empty($errors)): ?>
             <div class="flash error">

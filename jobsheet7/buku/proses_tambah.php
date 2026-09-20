@@ -22,8 +22,15 @@ if (!is_numeric($stok) || $stok < 0) {
     $errors[] = "Stok tidak boleh negatif.";
 }
 
+// Jika ada error validasi, simpan pesan error dan input lama, lalu kembalikan ke form
 if (!empty($errors)) {
-    $_SESSION['flash'] = ['type' => 'error', 'pesan' => implode(' ', $errors)];
+    $_SESSION['form_error'] = $errors;
+    $_SESSION['old_buku'] = [
+        'judul' => $judul,
+        'pengarang' => $pengarang,
+        'tahun' => $tahun,
+        'stok' => $stok
+    ];
     header('Location: tambah.php');
     exit;
 }
@@ -41,6 +48,10 @@ $_SESSION['buku'][] = [
     'kategori' => $kategori,
 ];
 
-$_SESSION['flash'] = ['type' => 'success', 'pesan' => 'Buku berhasil ditambahkan.'];
+$_SESSION['flash'] = [
+    'type' => 'success', 
+    'pesan' => 'Buku berhasil ditambahkan.'
+];
+
 header('Location: list.php');
 exit;

@@ -10,7 +10,7 @@ require_once __DIR__ . '/../includes/init.php';
         <h2>Daftar Buku</h2>
         <?php if (isset($_SESSION['flash'])): ?>
             <div class="flash <?= $_SESSION['flash']['type'] ?>">
-                <?= htmlspecialchars($_SESSION['flash']['message']) ?>
+                <?= htmlspecialchars($_SESSION['flash']['pesan']) ?>
             </div>
             <?php unset($_SESSION['flash']); ?>
         <?php endif; ?>
