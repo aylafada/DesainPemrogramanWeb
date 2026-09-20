@@ -74,7 +74,7 @@ Memberikan gambaran umum kondisi sirkulasi koleksi perpustakaan secara cepat kep
 |  +-----------------------------------------------------------------------+  |
 |                                                                             |
 +-----------------------------------------------------------------------------+
-Mencatat data anggota yang meminjam buku fisik, menentukan batas waktu pengembalian, serta mengurangi stok buku secara otomatis di sistem.
+Mencatat data anggota yang meminjam buku fisik yang menentukan batas waktu pengembalian, serta mengurangi stok buku secara otomatis di sistem.
 - Dropdown Anggota & Buku: Kolom seleksi anggota aktif dan koleksi buku. Buku dengan stok habis ($0$) otomatis dinonaktifkan (disabled)
 - Date Picker: Pemilih tanggal otomatis terisi tanggal hari ini dan tanggal jatuh tempo
 - Kotak Notifikasi Edge Case: Area peringatan dinamis (kuning/merah) yang akan muncul jika anggota yang dipilih masih memiliki tunggakan peminjaman buku lama

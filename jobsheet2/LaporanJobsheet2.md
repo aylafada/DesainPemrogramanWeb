@@ -1,4 +1,4 @@
-# LAPORAN JOBSHEET 2 Praktikum PBO
+# LAPORAN JOBSHEET 2 Desain dan Pemrograman Web
 
 ### Nama : Aylafada Syakira
 ### Kelas : TI - 2D
